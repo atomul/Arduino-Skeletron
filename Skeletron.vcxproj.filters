@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{041384f4-7046-490c-8610-6d47cd51bfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Components">
+      <UniqueIdentifier>{d26f94c5-2567-41eb-a5de-6b87f0dd379f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Components\Buttons">
+      <UniqueIdentifier>{3b264922-cdc7-4e92-86ce-d32c96b425ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{b13d52cb-360a-4536-ab0b-73ca9ce82494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Components">
+      <UniqueIdentifier>{d0e69cb9-c391-4b1e-942f-e98d4f2bd281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Components\Buttons">
+      <UniqueIdentifier>{8b4cb9aa-85e4-423e-a93c-8aa27c5dbfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Components\Lights">
+      <UniqueIdentifier>{590ea8dc-d3d5-4afd-b501-aebc8ce50615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Components\Lights">
+      <UniqueIdentifier>{0d301453-304d-48ed-aac4-fa893cf909f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Skeletron.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Skeletron.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Buttons\SwitchButton.h">
+      <Filter>Header Files\Core\Components\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Buttons\Button.h">
+      <Filter>Header Files\Core\Components\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Lights\LED.h">
+      <Filter>Header Files\Core\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Lights\LightSource.h">
+      <Filter>Header Files\Core\Components\Lights</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Core\Components\Buttons\Button.cpp">
+      <Filter>Source Files\Core\Components\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Components\Buttons\SwitchButton.cpp">
+      <Filter>Source Files\Core\Components\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Components\Lights\LED.cpp">
+      <Filter>Source Files\Core\Components\Lights</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
