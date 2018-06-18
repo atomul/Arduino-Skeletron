@@ -1,11 +1,11 @@
 #pragma once
 
-#include "LightSource.h"
+#include <stdint.h>
 
 /**
  * Simplest type of LED
  */
-class LED : ILightSource
+class LED
 {
 public:
 	LED(uint8_t powerPin);
@@ -13,8 +13,8 @@ public:
 
 
 	// inherited
-	virtual void TurnOn() override;
-	virtual void TurnOff() override;
+	void TurnOn();
+	void TurnOff();
 
 	bool IsTurnedOn();
 

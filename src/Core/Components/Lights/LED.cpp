@@ -15,7 +15,6 @@ LED::~LED()
 
 void LED::TurnOn()
 {
-	Serial.print("Button Pressed\n");
 	digitalWrite(m_powerPin, 1);
 	m_isTurnedOn = true;
 }

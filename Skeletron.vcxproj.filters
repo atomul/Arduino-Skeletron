@@ -37,6 +37,12 @@
     <Filter Include="Source Files\Core\Components\Lights">
       <UniqueIdentifier>{0d301453-304d-48ed-aac4-fa893cf909f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Core\Components\Motors">
+      <UniqueIdentifier>{f406c359-a5e9-4d5e-bc85-1cbc84ce1616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Components\Motors">
+      <UniqueIdentifier>{ea611280-b550-47bc-8c47-d6bf78d956ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Skeletron.ino" />
@@ -54,8 +60,17 @@
     <ClInclude Include="src\Core\Components\Lights\LED.h">
       <Filter>Header Files\Core\Components\Lights</Filter>
     </ClInclude>
-    <ClInclude Include="src\Core\Components\Lights\LightSource.h">
-      <Filter>Header Files\Core\Components\Lights</Filter>
+    <ClInclude Include="src\Skeleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Arduino-Skeletron.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Motors\Motor.h">
+      <Filter>Header Files\Core\Components\Motors</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Components\Motors\HBridge.h">
+      <Filter>Header Files\Core\Components\Motors</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +82,12 @@
     </ClCompile>
     <ClCompile Include="src\Core\Components\Lights\LED.cpp">
       <Filter>Source Files\Core\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Components\Motors\Motor.cpp">
+      <Filter>Source Files\Core\Components\Motors</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
